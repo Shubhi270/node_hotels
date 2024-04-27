@@ -81,7 +81,7 @@ router.delete('/:id' , async (req , res)=>{
       
     }
     console.log("data deleted");
-    res.status(200).json({message : 'person data delted'})
+    res.status(200).json({message : 'person data delted yippeee'})
   }
   catch (err){
     console.log(err);
