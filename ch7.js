@@ -88,7 +88,7 @@ function getUserById(req, res){
     }
   }
   res.json({
-    message: "req received",
+    message: "req received yes.",
     data : obj
   })
 }
